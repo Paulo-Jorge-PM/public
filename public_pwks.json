@@ -6,7 +6,11 @@
       "kty": "RSA",
       "kid": "jqEwEy4V3nDTKTpzZR9SYsJxUrWo20QBmn1T32Hete4",
       "alg": "RS384",
-      "use": "sig"
+      "use": "sig",
+      "key_ops": [
+        "verify"
+      ],
+      "ext": true,
     }
   ]
 }
